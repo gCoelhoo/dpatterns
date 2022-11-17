@@ -1,3 +1,5 @@
+package command;
+
 public class StringInverter implements StringTransformer, StringTransformerUndo {
     @Override
     public void execute(StringDrink drink) {

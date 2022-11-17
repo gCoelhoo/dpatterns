@@ -1,3 +1,5 @@
+package command;
+
 public class StringReplacer implements StringTransformer, StringTransformerUndo{
     private final char actual;
     private final char x;
