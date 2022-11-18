@@ -7,7 +7,7 @@ import org.mockito.Mockito;
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-public class StringBarTest {
+public class StringObserverTest {
     @Test
     public void happyHour() {
         Bar bar = new StringBar();

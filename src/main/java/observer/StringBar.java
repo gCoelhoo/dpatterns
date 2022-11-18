@@ -1,7 +1,14 @@
 package observer;
 
+import command.StringDrink;
+import command.StringRecipe;
+
 public class StringBar extends Bar{
     private boolean hh = false;
+
+    public void order(StringDrink drink, StringRecipe recipe){
+        recipe.mix(drink);
+    }
 
     @Override
     public boolean isHappyHour() {
